@@ -8,64 +8,67 @@
     <artifactId>DeckOfCardsAPI_Assesment</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-<!--    <properties>-->
-<!--        <rest-assured.version>3.3.0</rest-assured.version>-->
-<!--        <cucumber-java.version>6.1.1</cucumber-java.version>-->
-<!--        <cucumber-testng.version>6.1.1</cucumber-testng.version>-->
-<!--        <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>-->
-<!--        <maven-cucumber-reporting.version>5.0.0</maven-cucumber-reporting.version>-->
-<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-<!--        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
-<!--    </properties>-->
+    <properties>
+        <rest-assured.version>4.2.0</rest-assured.version>
+        <json.version>20200518</json.version>
+        <json-path.version>4.3.0</json-path.version>
+        <extentreports.version>2.41.2</extentreports.version>
+        <poi.version>4.1.2</poi.version>
+        <poi-ooxml.version>4.1.2</poi-ooxml.version>
+        <commons-io.version>2.7</commons-io.version>
+        <testng.version>6.14.3</testng.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
 <dependencies>
     <dependency>
         <groupId>io.rest-assured</groupId>
         <artifactId>rest-assured</artifactId>
-        <version>4.2.0</version>
+        <version>${rest-assured.version}</version>
         <scope>test</scope>
     </dependency>
 
     <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
-        <version>20200518</version>
+        <version>${json.version}</version>
     </dependency>
 
     <dependency>
         <groupId>io.rest-assured</groupId>
         <artifactId>json-path</artifactId>
-        <version>4.3.0</version>
+        <version>${json-path.version}</version>
     </dependency>
 
     <dependency>
         <groupId>com.relevantcodes</groupId>
         <artifactId>extentreports</artifactId>
-        <version>2.41.2</version>
+        <version>${extentreports.version}</version>
     </dependency>
 
     <dependency>
         <groupId>org.apache.poi</groupId>
         <artifactId>poi</artifactId>
-        <version>4.1.2</version>
+        <version>${poi.version}</version>
     </dependency>
 
     <dependency>
         <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml</artifactId>
-        <version>4.1.2</version>
+        <version>${poi-ooxml.version}</version>
     </dependency>
 
     <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
-        <version>2.7</version>
+        <version>${commons-io.version}</version>
     </dependency>
 
     <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
-        <version>6.14.3</version>
+        <version>${testng.version}</version>
         <scope>test</scope>
     </dependency>
 </dependencies>
@@ -78,6 +81,16 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M4</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>

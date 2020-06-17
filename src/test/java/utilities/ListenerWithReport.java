@@ -53,7 +53,7 @@ public class ListenerWithReport implements ITestListener {
     //Report
     String reportLocation = "test-output/Report/" + resultPath + "/";
     public void onStart(ITestContext context) {
-        extentReports = new ExtentReports(reportLocation + "ExtentReport.html");
+        extentReports = new ExtentReports(reportLocation + "DOCAPI_EReport.html");
         extentTest = extentReports.startTest("");
     }
 
