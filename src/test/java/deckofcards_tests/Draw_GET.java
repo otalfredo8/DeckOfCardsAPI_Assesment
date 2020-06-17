@@ -29,6 +29,6 @@ public class Draw_GET extends BaseTest{
 
         response.prettyPrint();
 
-        assertThat(response.jsonPath().get("remaining"), is(52));
+        assertThat(response.jsonPath().get("remaining"), is(51));
     }
 }

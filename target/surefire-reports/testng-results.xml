@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="4971" started-at="2020-06-17T21:05:12Z" finished-at="2020-06-17T21:05:17Z">
+    <groups>
+    </groups>
+    <test name="C:/Users/alfre/IdeaProjects/DeckOfCardsAPI_Assesment" duration-ms="4971" started-at="2020-06-17T21:05:12Z" finished-at="2020-06-17T21:05:17Z">
+      <class name="deckofcards_tests.NewDeck_jockerPOST">
+        <test-method status="PASS" signature="baseURIsetUp()[pri:0, instance:deckofcards_tests.NewDeck_jockerPOST@7ca48474]" name="baseURIsetUp" is-config="true" duration-ms="0" started-at="2020-06-17T21:05:14Z" finished-at="2020-06-17T21:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURIsetUp -->
+        <test-method status="PASS" signature="responseSetUP()[pri:0, instance:deckofcards_tests.NewDeck_jockerPOST@7ca48474]" name="responseSetUP" is-config="true" duration-ms="1008" started-at="2020-06-17T21:05:14Z" finished-at="2020-06-17T21:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseSetUP -->
+        <test-method status="PASS" signature="newDeck_jockerPost()[pri:0, instance:deckofcards_tests.NewDeck_jockerPOST@7ca48474]" name="newDeck_jockerPost" duration-ms="35" started-at="2020-06-17T21:05:15Z" finished-at="2020-06-17T21:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newDeck_jockerPost -->
+      </class> <!-- deckofcards_tests.NewDeck_jockerPOST -->
+      <class name="deckofcards_tests.NewDeck_GET">
+        <test-method status="PASS" signature="baseURIsetUp()[pri:0, instance:deckofcards_tests.NewDeck_GET@13a57a3b]" name="baseURIsetUp" is-config="true" duration-ms="374" started-at="2020-06-17T21:05:12Z" finished-at="2020-06-17T21:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURIsetUp -->
+        <test-method status="PASS" signature="setUP_response()[pri:0, instance:deckofcards_tests.NewDeck_GET@13a57a3b]" name="setUP_response" is-config="true" duration-ms="1554" started-at="2020-06-17T21:05:12Z" finished-at="2020-06-17T21:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP_response -->
+        <test-method status="PASS" signature="newDeck_happyPath()[pri:0, instance:deckofcards_tests.NewDeck_GET@13a57a3b]" name="newDeck_happyPath" duration-ms="34" started-at="2020-06-17T21:05:14Z" finished-at="2020-06-17T21:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newDeck_happyPath -->
+        <test-method status="PASS" signature="setUP_response()[pri:0, instance:deckofcards_tests.NewDeck_GET@13a57a3b]" name="setUP_response" is-config="true" duration-ms="224" started-at="2020-06-17T21:05:14Z" finished-at="2020-06-17T21:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP_response -->
+        <test-method status="PASS" signature="newDeck_Post()[pri:0, instance:deckofcards_tests.NewDeck_GET@13a57a3b]" name="newDeck_Post" duration-ms="0" started-at="2020-06-17T21:05:14Z" finished-at="2020-06-17T21:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newDeck_Post -->
+      </class> <!-- deckofcards_tests.NewDeck_GET -->
+      <class name="deckofcards_tests.NewDeck_jokerGET">
+        <test-method status="PASS" signature="baseURIsetUp()[pri:0, instance:deckofcards_tests.NewDeck_jokerGET@337d0578]" name="baseURIsetUp" is-config="true" duration-ms="1" started-at="2020-06-17T21:05:15Z" finished-at="2020-06-17T21:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURIsetUp -->
+        <test-method status="PASS" signature="response_setUp()[pri:0, instance:deckofcards_tests.NewDeck_jokerGET@337d0578]" name="response_setUp" is-config="true" duration-ms="455" started-at="2020-06-17T21:05:15Z" finished-at="2020-06-17T21:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- response_setUp -->
+        <test-method status="PASS" signature="newDeck_jokerGet()[pri:0, instance:deckofcards_tests.NewDeck_jokerGET@337d0578]" name="newDeck_jokerGet" duration-ms="0" started-at="2020-06-17T21:05:16Z" finished-at="2020-06-17T21:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newDeck_jokerGet -->
+      </class> <!-- deckofcards_tests.NewDeck_jokerGET -->
+      <class name="deckofcards_tests.Draw_GET">
+        <test-method status="PASS" signature="baseURIsetUp()[pri:0, instance:deckofcards_tests.Draw_GET@59e84876]" name="baseURIsetUp" is-config="true" duration-ms="0" started-at="2020-06-17T21:05:16Z" finished-at="2020-06-17T21:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURIsetUp -->
+        <test-method status="PASS" signature="deskIDSetUp()[pri:0, instance:deckofcards_tests.Draw_GET@59e84876]" name="deskIDSetUp" is-config="true" duration-ms="657" started-at="2020-06-17T21:05:16Z" finished-at="2020-06-17T21:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deskIDSetUp -->
+        <test-method status="PASS" signature="drawOne()[pri:0, instance:deckofcards_tests.Draw_GET@59e84876]" name="drawOne" duration-ms="490" started-at="2020-06-17T21:05:16Z" finished-at="2020-06-17T21:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drawOne -->
+      </class> <!-- deckofcards_tests.Draw_GET -->
+    </test> <!-- C:/Users/alfre/IdeaProjects/DeckOfCardsAPI_Assesment -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

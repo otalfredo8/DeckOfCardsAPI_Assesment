@@ -1,0 +1,17 @@
+utilities\ResponseVerifier.class
+configs\DeckOfCardsEndPoints.class
+deckofcards_tests\NewDeck_GET.class
+utilities\ListenerWithReport.class
+deckofcards_tests\NewDeck_jokerGET.class
+pojos\Images.class
+deckofcards_tests\Draw_GET.class
+configs\Headers.class
+pojos\Deck.class
+pojos\DrawPojo.class
+utilities\JavaUtils.class
+deckofcards_tests\BaseTest.class
+utilities\EnvSelector.class
+utilities\ExcelUtil.class
+pojos\Cards.class
+deckofcards_tests\NewDeck_jockerPOST.class
+pojos\CardPojo.class
