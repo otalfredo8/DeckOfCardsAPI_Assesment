@@ -8,6 +8,7 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pojos.CardPojo;
+import pojos.DrawPojo;
 import utilities.ExcelUtil;
 import utilities.ResponseVerifier;
 
@@ -38,5 +39,6 @@ public class NewDeck_jockerPOST extends BaseTest {
         ResponseVerifier.keyExistsInJSONObjectValidation(response, "deck_id");
         ResponseVerifier.keyValidationFromJsonObject(response, "remaining", "54");
     }
+
 
 }
