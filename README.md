@@ -2,8 +2,9 @@
 Finra Assesment (DeckOfCardsAPI).
 
 ## How to run
-Open your command line in the working repository
-Then use the following maven commands/goals 
+Open your command line in the working repository.
+
+Then use the following maven commands/goals. 
 - **mvn clean install**
 - **mvn test**
 
