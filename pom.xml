@@ -10,7 +10,7 @@
 
     <properties>
         <rest-assured.version>4.2.0</rest-assured.version>
-        <json.version>20200518</json.version>
+        <json.version>20230227</json.version>
         <json-path.version>4.3.0</json-path.version>
         <extentreports.version>2.41.2</extentreports.version>
         <poi.version>4.1.2</poi.version>
